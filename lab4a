@@ -1,0 +1,34 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class RandomNumber {
+
+ 
+private int num=0;
+private int  high =0;
+private int  low =0;
+public void  GetANumber(int lo,int hi )
+{
+ this.low = lo;
+ this.high = hi;
+num = (int)(Math.floor(Math.random()*((hi-lo)+1)+lo);
+
+}
+ 
+public void SetLowNumber(int low)
+{
+this.low = low;
+}
+
+public void SetHighNumber(int high)
+{
+this.high = high  ; 
+}
+
+public int GetNumber()
+{
+GetNumber(low,high);
+return num;
+}
+
+}
