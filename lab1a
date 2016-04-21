@@ -20,3 +20,12 @@ else
 System.out.println("Your number is too small.");
 
 }
+
+
+
+
+public int GetAnumber()
+{
+randomNumber = 1+(int)Math.radom()*10;
+return randomNumber;
+}
