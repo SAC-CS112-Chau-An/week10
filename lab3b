@@ -10,11 +10,13 @@ int myRandomNum;
 int numberGuess;
 
 int highNumber;
-RandomNumber3 randomNumber = new RandomNumber3();
+
 
 System.out.println(""Please enter a number high random");
 highNumber =intput.nextInt();
 randomNumber.RandomNumber(highNumber);
+
+RandomNumber3 randomNumber = new RandomNumber3();
 
 System.out.println(""Please enter a number between 0 and %d :",highNumber);
 numberGuess = input.nextInt();
