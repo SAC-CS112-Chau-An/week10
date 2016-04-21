@@ -1,0 +1,33 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class GuessGame2Test {
+
+public static void main(String[] args) {
+Scanner input = new Scanner (System.in);
+
+int myRandomNum;
+int numberGuess;
+
+int highNumber;
+RandomNumber3 randomNumber = new RandomNumber3();
+
+System.out.println(""Please enter a number high random");
+highNumber =intput.nextInt();
+randomNumber.RandomNumber(highNumber);
+
+System.out.println(""Please enter a number between 0 and %d :",highNumber);
+numberGuess = input.nextInt();
+myRandomNum = randomNumber.GetANumber();
+
+if (numberGuess==myRandomNum)
+System.out.printf("Congrats, you guessed it. The correct number is %D\n",numberGuess);
+else if (numberGuess >myRandomNum)
+System.out.println("Your number is too large.Your number is %d ,computer number is %d",numberGuess,myRandomNum);
+else
+System.out.println("Your number is too small.Your number is %d ,computer number is %d",numberGuess,myRandomNum);
+
+
+
+}
+}
