@@ -1,21 +1,16 @@
 private int num=0;
 private int  max =0;
-private int  min =0;
-public void  GetAnumber(int hi )
-{
 
-num = (int)(Math.floor(Math.random()*(hi+1));
 
-}
  
 
 public RandomNumber(int high)
 {
-max =high  ; 
+num = (int)(Math.random()*(high);
 }
 
 public int GetNumber()
 {
-GetNumber(max);
+
 return num;
 }
