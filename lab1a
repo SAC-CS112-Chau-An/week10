@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class GuessGame2 {
+public class RandomNumber {
 
 Scanner input = new Scanner (System.in);
 
