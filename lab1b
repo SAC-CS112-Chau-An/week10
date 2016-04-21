@@ -1,0 +1,14 @@
+import java.util.Scanner;
+import java.util.Random;
+
+public class GuessANumber {
+
+public static void main(String[] args) {
+
+ GuessGame2 RNumber= new GuessGame2();
+ RNumber.DisplayNumber();
+
+
+
+}
+}
